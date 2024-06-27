@@ -10,7 +10,7 @@ print("Hello, World!")
 
 ## Key Features
 
-1. Multiple Arguments
+**1. Multiple Arguments**
 
 Separate multiple items with commas
 
@@ -18,7 +18,7 @@ Separate multiple items with commas
 print("Hello", "World")  # Output: Hello World
 ```
 
-2. End Parameter
+**2. End Parameter**
 
 Change the ending character (default is newline `\n`)
 
@@ -26,7 +26,7 @@ Change the ending character (default is newline `\n`)
 print("Hello", end="!")  # Output: Hello!
 ```
 
-3. Sep Parameter
+**3. Sep Parameter**
 
 Specify a separator between multiple arguments
 
@@ -34,7 +34,7 @@ Specify a separator between multiple arguments
 print("Apple", "Banana", "Cherry", sep=" | ")  # Output: Apple | Banana | Cherry
 ```
 
-4. File Parameter
+**4. File Parameter**
 
 Redirect output to a file
 
@@ -43,7 +43,7 @@ with open("output.txt", "w") as f:
     print("Hello, File!", file=f)
 ```
 
-5. Formatting
+**5. Formatting**
 
 Use with string formatting methods
 
